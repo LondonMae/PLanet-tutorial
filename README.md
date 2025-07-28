@@ -2,11 +2,12 @@
 Welcome to the PLanet repository. PLanet is a high-level, declaritive
 programming language to help researchers author verifiable experimental designs. 
 
-To set up the environment, install the requirements using `pip3 install -r requirements.txt`. 
-Source files are located in `src/lib`. Example programs are
-located in `src/examples` and `src/eval_examples`. Outputs from the program
-(such as the latex table or csv file) are located in `src/outputs`. 
-
+To set up the environment, install the requirements using 
+`pip3 install -r requirements.txt`, which includes the
+[`planet-dsl`](https://pypi.org/project/planet-dsl/0.1.0/) package. The tutorial
+is located in `PLanet_tutorial.ipynb`. The instructions guide you through a few
+examples using PLanet, asking you to fill in lines of code along the way.
+`tutorial.py` contains a template PLanet program. 
 
 # Objects 
 ## Units
