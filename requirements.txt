@@ -1,4 +1,11 @@
 ipykernel==6.30.0
 ipython==9.4.0
 planet-dsl==0.1.11
-
+jupyter_client==8.6.3
+jupyter_core==5.8.1
+tornado==6.5.2
+traitlets==5.14.3
+pyzmq==27.0.1
+nest-asyncio==1.6.0
+matplotlib-inline==0.1.7
+debugpy==1.8.16
