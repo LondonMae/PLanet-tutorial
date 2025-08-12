@@ -1,10 +1,12 @@
 # PLanet
-Welcome to the PLanet repository. PLanet is a high-level, declaritive
-programming language to help researchers author verifiable experimental designs. 
+Welcome to the PLanet repository. PLanet is a declaritive
+programming language to help researchers author verifiable experimental designs,
+with a focus on assignment procedures.
 
-To set up the environment, install the requirements using 
+PLanet is a pip library! Install the latest version using `pip3 install
+planet-dsl`. To set up the tutorial environment, install the requirements using 
 `pip3 install -r requirements.txt`, which includes the
-[`planet-dsl`](https://pypi.org/project/planet-dsl/0.1.0/) package. The tutorial
+[`planet-dsl`](https://pypi.org/project/planet-dsl/0.1.11/) package. The tutorial
 is located in `PLanet_tutorial.ipynb`. The instructions guide you through a few
 examples using PLanet, asking you to fill in lines of code along the way.
 `tutorial.py` contains a template PLanet program. 
@@ -403,7 +405,7 @@ Returns: A `MultiFactVariable` object
 treatment = Variable("treatment", options=["drug", "placebo"])
 task = Variable("task", options=["run", "walk"])
 
-multi_fact_variable = multifact(treatment, task)
+multi_fact_variable = multifact([treatment, task])
 ```
 
 ### This is similar to manually combining the variables, but using multifact keeps references of the variables it is composed of. 
