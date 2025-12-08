@@ -1,5 +1,10 @@
 from planet import * 
 
+"""
+PLanet program specifying the design described in 
+    https://dl.acm.org/doi/10.1145/3586183.3606731
+"""
+
 # define primary variable of interest
 interface = ExperimentVariable(
     name = "interface",
