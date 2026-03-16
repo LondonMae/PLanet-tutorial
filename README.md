@@ -1,6 +1,30 @@
 # PLanet
 Welcome to PLanet's documentation! PLanet is a tool to help researchers author and analyze experimental designs.
 
+# Effect Types 
+Below, we provide brief definitions and examples for different effects in an
+experiment. PLanet's analysis identifies which effects you can test in an
+experiment and whether they are influenced by other factors. 
+
+  ### Main Effects
+  The independent influence of a single variable on the outcome, averaged across all levels of any other variables.
+
+    ex: The influence of interface on task time regardless of task type is the main effect of the interface.
+
+### Interaction Effects 
+   The influence of a variable that depends on the level (i.e., condition) of
+   another variable. When interaction effects exist, main effects alone can be
+   misleading and should be interpreted with caution.
+   
+    ex: If VR only outperforms baseline on the "run" task but not others, that is an interface × task interaction.
+
+### Time-Based Effects
+The influence of time or state over the course of an experiment. PLanet
+indicates which effects can be interpreted without bias from time-based
+effects.
+
+      ex: 'Learning effects are one example of time-based effects where participants perform better in later trials, simply because they learned more about the task over the course of the study.
+
 # Constructs 
 ## Experiment Variable
 An Experiment Variable is an independent variable the experimenter wants to use in an experiment. The experiment variables included in an experiment determine the conditions a unit sees. For example, treatment is an Experiment Variable with two conditions: drug or placebo. 
